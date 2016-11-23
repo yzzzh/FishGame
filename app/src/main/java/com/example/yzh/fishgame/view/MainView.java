@@ -225,16 +225,16 @@ public class MainView extends SurfaceView implements Runnable,SurfaceHolder.Call
         stop_button_image = BitmapFactory.decodeResource(getResources(),R.drawable.button_stop);
         start_button_image = BitmapFactory.decodeResource(getResources(),R.drawable.button_start);
 
-        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_1_left));
-        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_2_left));
-        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_3_left));
-        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_4_left));
+        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish1_left));
+        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish2_left));
+        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish3_left));
+        myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish4_left));
         myfish_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_invincible_left));
 
-        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_1_right));
-        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_2_right));
-        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_3_right));
-        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_4_right));
+        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish1_right));
+        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish2_right));
+        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish3_right));
+        myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish4_right));
         myfish_right_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.myfish_invincible_right));
 
         enemy_left_image_list.add(BitmapFactory.decodeResource(getResources(),R.drawable.fish1_left));

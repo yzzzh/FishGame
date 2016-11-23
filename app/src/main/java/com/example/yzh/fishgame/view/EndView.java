@@ -187,7 +187,7 @@ public class EndView extends SurfaceView implements Runnable,View.OnTouchListene
         public StartGame(Bitmap game_image, int window_width, int window_height) {
             super(game_image, window_width, window_height);
             this.x = (window_width - size_width) / 2;
-            this.y = (window_height - size_height) / 3;
+            this.y = (window_height - size_height) / 3 * 2 + 50;
         }
 
         public void draw(Canvas canvas, Paint paint){
@@ -227,7 +227,7 @@ public class EndView extends SurfaceView implements Runnable,View.OnTouchListene
         public EndGame(Bitmap game_image, int window_width, int window_height) {
             super(game_image, window_width, window_height);
             this.x = (window_width - size_width) / 2;
-            this.y = (window_height - size_height) / 3 * 2;
+            this.y = (window_height - size_height) / 3 * 2 + 150;
         }
 
         @Override

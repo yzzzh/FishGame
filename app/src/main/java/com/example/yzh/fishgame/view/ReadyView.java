@@ -51,7 +51,7 @@ public class ReadyView extends SurfaceView implements Runnable,View.OnTouchListe
         setOnTouchListener(this);
 
         background_image = BitmapFactory.decodeResource(getResources(),R.drawable.ready_background);
-        start_game_image = BitmapFactory.decodeResource(getResources(),R.drawable.start_game);
+        start_game_image = BitmapFactory.decodeResource(getResources(),R.drawable.game_start);
         end_game_image = BitmapFactory.decodeResource(getResources(),R.drawable.game_over);
 
         paint = new Paint();
@@ -187,7 +187,7 @@ public class ReadyView extends SurfaceView implements Runnable,View.OnTouchListe
         public StartGame(Bitmap game_image, int window_width, int window_height) {
             super(game_image, window_width, window_height);
             this.x = (window_width - size_width) / 2;
-            this.y = (window_height - size_height) / 3;
+            this.y = (window_height - size_height) / 3 * 2 + 50;
         }
 
         public void draw(Canvas canvas, Paint paint){
@@ -227,7 +227,7 @@ public class ReadyView extends SurfaceView implements Runnable,View.OnTouchListe
         public EndGame(Bitmap game_image, int window_width, int window_height) {
             super(game_image, window_width, window_height);
             this.x = (window_width - size_width) / 2;
-            this.y = (window_height - size_height) / 3 * 2;
+            this.y = (window_height - size_height) / 3 * 2 + 150;
         }
 
         @Override
